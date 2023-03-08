@@ -1,5 +1,5 @@
 {
-    "name": "hubert/avocado-sample",
+    "name": "hubert/avocado-docker-apache2-template",
     "autoload": {
         "psr-4": {
             "Hubert\\AvocadoSample\\": "src/"
