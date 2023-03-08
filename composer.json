@@ -5,6 +5,8 @@
             "Hubert\\AvocadoSample\\": "src/"
         }
     },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "HubertKuch",
