@@ -1,0 +1,21 @@
+{
+    "name": "hubert/avocado-sample",
+    "autoload": {
+        "psr-4": {
+            "Hubert\\AvocadoSample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "HubertKuch",
+            "email": "kuchhubert@gmail.com"
+        }
+    ],
+    "require": {
+        "hubert/avocado": "dev-main"
+    },
+    "scripts": {
+        "post-install-cmd": ["@php vendor/hubert/avocado/bin/cleanup.php"],
+        "post-update-cmd": ["@php vendor/hubert/avocado/bin/cleanup.php"]
+    }
+}

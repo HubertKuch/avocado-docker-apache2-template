@@ -1,0 +1,9 @@
+version: "3.2"
+services:
+  avocado-demo:
+    build: .
+    volumes:
+      - .:/var/www/html
+    network_mode: bridge
+    ports:
+      - "80:80"
